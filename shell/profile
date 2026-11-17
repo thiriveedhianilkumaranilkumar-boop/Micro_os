@@ -1,0 +1,25 @@
+# /etc/profile: MicroOS Shell Environment Configuration
+
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/mnt/ssd/debian-root/usr/bin"
+export HOME="/root"
+export TERM="linux"
+export PS1='\[\033[1;36m\]micro@micro\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]\$ '
+
+alias ls='ls --color=auto'
+alias ll='ls -la --color=auto'
+alias ..='cd ..'
+alias reboot='/sbin/reboot'
+alias poweroff='/sbin/poweroff'
+alias halt='/sbin/halt'
+
+# Print welcome banner if interactive shell on tty1 or console
+if [ -t 0 ] && [ "$SHLVL" -le 2 ]; then
+    echo -e "\033[1;36m"
+    echo "===================================================="
+    echo " MICROOS Minimal Linux. Maximum control."
+    echo " Version: 1.0.0 (x86_64)"
+    echo "===================================================="
+    echo -e "\033[0m"
+    echo "Type 'help' for commands, 'sysinfo' for overview, or 'arcade' to play games."
+    echo ""
+fi

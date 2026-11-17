@@ -1,0 +1,14 @@
+MicroOS Build Information
+=========================
+OS Name: MicroOS
+Version: 1.0.0
+Architecture: x86_64
+Kernel Version: 6.6.134-0-lts SMP
+Bootloader: El Torito Dual Hybrid (BIOS ISOLINUX + UEFI 64-bit)
+ISO File: microos.iso
+ISO Size: 13,768,704 bytes (13.13 MB)
+ISO SHA256: 51ce4c11efb1a6350e0f326580cde3d62a9900a5292f38aca4353c2e708ea72a
+Budget Limit: 50,000,000 bytes (50.00 MB)
+Size Compliance: PASSED (36,231,296 bytes headroom)
+Target Hypervisor: Oracle VirtualBox 7.x (Offline, 1024MB RAM, 1 CPU)
+Physical Target: Bare-metal Intel/AMD PC & Laptops

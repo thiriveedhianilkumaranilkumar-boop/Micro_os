@@ -1,0 +1,13 @@
+[2026-11-17 20:34:00] [OPTIMIZATION] Initial sizing analysis:
+  - Budget Limit: 50,000,000 bytes (50 MB)
+[2026-11-17 20:56:00] [OPTIMIZATION] Iteration 1: Initramfs generated at 48.5 MB due to Windows filesystem lack of native symlinks in applet duplication.
+[2026-11-17 20:56:40] [OPTIMIZATION] Iteration 2: Implemented virtual CPIO newc S_IFLNK symlinks in build_rootfs.py.
+  - Result: Uncompressed rootfs dropped to 1.43 MB; compressed initrd dropped to 820 KB (98.3% reduction!).
+[2026-11-17 21:05:35] [OPTIMIZATION] Release ISO generated:
+  - File: release/microos.iso
+  - Actual Size: 13,768,704 bytes (13.13 MB)
+  - Headroom: 36,231,296 bytes (34.55 MB)
+  - Compliance: PASSED (Under 50,000,000 byte maximum limit)
+[2026-11-17 21:08:50] [OPTIMIZATION] Boot script permission optimization:
+  - Fixed /etc/init.d/rcS executable bit (0o100755) in CPIO table.
+  - Re-ran VirtualBox validation: Clean boot verified without permission warnings.
