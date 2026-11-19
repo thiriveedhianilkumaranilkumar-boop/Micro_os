@@ -1,0 +1,1 @@
+C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\target\x86_64-unknown-linux-musl\release\microos-micro-shell: C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\common\src\lib.rs C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\micro-shell\src\main.rs

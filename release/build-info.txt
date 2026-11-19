@@ -1,14 +1,16 @@
-MicroOS Build Information
-=========================
-OS Name: MicroOS
-Version: 1.0.0
+MicroOS Rust Edition v2.0 Build Information
+============================================
+OS Name: MicroOS Rust Edition
+Version: 2.0.0
 Architecture: x86_64
+Primary Language: Rust 1.100.0 (stable-x86_64-pc-windows-msvc)
+Target Tuple: x86_64-unknown-linux-musl
 Kernel Version: 6.6.134-0-lts SMP
 Bootloader: El Torito Dual Hybrid (BIOS ISOLINUX + UEFI 64-bit)
-ISO File: microos.iso
-ISO Size: 13,768,704 bytes (13.13 MB)
-ISO SHA256: 51ce4c11efb1a6350e0f326580cde3d62a9900a5292f38aca4353c2e708ea72a
-Budget Limit: 50,000,000 bytes (50.00 MB)
-Size Compliance: PASSED (36,231,296 bytes headroom)
-Target Hypervisor: Oracle VirtualBox 7.x (Offline, 1024MB RAM, 1 CPU)
-Physical Target: Bare-metal Intel/AMD PC & Laptops
+ISO File: microos-rust.iso (and microos.iso)
+ISO Size: 17,518,592 bytes (16.71 MB)
+ISO SHA256: 647e24be4acc6be26070080621df7454c230db6233f6cae60fe6c892709d1ace
+All 8 Arcade Games: 100% Rust
+Init & Shell: 100% Rust
+Hardware & Storage & Network: 100% Rust
+Debian APT Persistent Bridge: 100% Rust

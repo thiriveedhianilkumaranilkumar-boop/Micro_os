@@ -1,0 +1,1 @@
+C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\target\x86_64-unknown-linux-musl\release\microos-tetris: C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\games\tetris\src\main.rs C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\common\src\lib.rs

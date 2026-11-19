@@ -1,0 +1,1 @@
+C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\target\x86_64-unknown-linux-musl\release\microos-space-invaders: C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\games\space-invaders\src\main.rs C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\common\src\lib.rs

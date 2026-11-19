@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "init",
+    "rust/common",
+    "rust/system-init",
+    "rust/hardware-manager",
+    "rust/storage-manager",
+    "rust/network-manager",
+    "rust/wifi-manager",
+    "rust/configuration-manager",
+    "rust/package-manager",
+    "rust/system-monitor",
+    "rust/micro-shell",
+    "rust/arcade",
+    "games/snake",
+    "games/tetris",
+    "games/pong",
+    "games/minesweeper",
+    "games/game2048",
+    "games/number-guessing",
+    "games/tic-tac-toe",
+    "games/space-invaders",
+]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

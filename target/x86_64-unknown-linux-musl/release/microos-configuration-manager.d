@@ -1,0 +1,1 @@
+C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\target\x86_64-unknown-linux-musl\release\microos-configuration-manager: C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\common\src\lib.rs C:\Users\t_ani\.gemini\antigravity\scratch\MicroOS\rust\configuration-manager\src\main.rs

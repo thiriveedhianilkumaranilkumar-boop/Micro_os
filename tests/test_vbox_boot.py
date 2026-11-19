@@ -9,7 +9,7 @@ import os, sys, subprocess, time
 
 VBOXMANAGE = r"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-ISO_PATH = os.path.join(BASE_DIR, "release", "microos.iso")
+ISO_PATH = os.path.join(BASE_DIR, "release", "microos-rust.iso")
 BUILD_DIR = os.path.join(BASE_DIR, "build")
 TEST_LOG = os.path.join(BASE_DIR, "logs", "test.log")
 SCREENSHOT_PATH = os.path.join(BUILD_DIR, "vbox_boot_screenshot.png")

@@ -1,19 +1,7 @@
 #!/bin/sh
-# MicroOS System Initialization Script
-# Executed by BusyBox init during early userspace startup
-
-# Set system hostname
 hostname microos 2>/dev/null
-
-# Loopback network interface activation
 ip link set lo up 2>/dev/null
-
-# Clean temporary runtime spaces
 rm -rf /tmp/* /run/* 2>/dev/null
 mkdir -p /tmp /run /var/log /var/run
-
-# Enable kernel log output
 dmesg -n 1 2>/dev/null
-
-# System startup complete message
-echo "MicroOS initialization complete."
+echo 'MicroOS Rust Edition v2.0 initialized.'

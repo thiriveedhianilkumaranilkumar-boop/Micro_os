@@ -1,5 +1,5 @@
 ::sysinit:/etc/init.d/rcS
-tty1::respawn:/bin/sh -l
-console::respawn:/bin/sh -l
+tty1::respawn:/bin/micro-shell
+console::respawn:/bin/micro-shell
 ::ctrlaltdel:/sbin/reboot
 ::shutdown:/bin/umount -a -r
